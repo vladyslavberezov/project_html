@@ -1,13 +1,11 @@
 body::-webkit-scrollbar {
   position: absolute;
   width: 6px;
-  
+
   overflow: overlay;
   -ms-overflow-style: none;
-
 }
 body::-webkit-scrollbar-thumb {
-
   position: absolute;
   top: 290px;
   width: 6px;
@@ -32,7 +30,6 @@ body::-webkit-scrollbar-thumb:active {
 body {
   overflow: auto;
   -ms-overflow-style: none;
-  
 }
 * {
   margin: 0;
@@ -55,8 +52,9 @@ body {
   width: 100%;
   height: 80vh;
   display: grid;
+  position: relative;
   grid-template-columns: 44.3% 1.5fr 0.3fr;
-  grid-template-rows: 0.3fr 1.2fr 0fr;
+  grid-template-rows: 0.3fr 1.6fr 0fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
@@ -65,6 +63,7 @@ body {
     "main-logo main-logo social";
   background-size: cover;
   background-image: url(../img/pexels-alexis-ricardo-alaurin-8057449.png);
+  
 }
 
 .links {
@@ -74,25 +73,44 @@ body {
   font-weight: 400;
   font-size: 24px;
   color: #05003e;
-  
 }
 .bar {
   height: 100%;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .main-logo {
-  position: relative;
   grid-area: main-logo;
-  background-image: url(/img/Прапор.svg) ;
-  background-image: url(/img/Group\ 1022.svg) no-repeat;
-  background-image: url(/img/Вітання.svg) no-repeat;
+  position: relative;
+  /* z-index: 0; */
+}
+
+.flag {
+  position: absolute;
+  background: 
+  /* url('/img/Вітання.svg') 50% 14%/60% 43% no-repeat, 
+  url('/img/Group\ 1022.svg') 98% 81%/45% 22%  no-repeat; */ url("/img/Прапор.svg")
+    60% 60% / cover no-repeat;
+  width: 100%;
+  height: 120%;
+}
+.hello {
+  /* position: absolute; */
+  background: url("/img/Вітання.svg") center 20%/60% 43% no-repeat,
+    url("/img/Group\ 1022.svg") 98% 75%/45% 25% no-repeat;
+  width: 100%;
+  height: 85%;
+}
+.hello img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .language {
+  width: 100%;
+  height: 100%;
   grid-area: language;
   background: #6a8ea8;
   display: flex;
@@ -102,7 +120,7 @@ body {
 
 .social {
   background: #6a8ea8;
-  /* grid-area: social; */
+  grid-area: social;
 }
 
 .bird-img {
@@ -110,32 +128,6 @@ body {
   place-self: center;
 }
 
-.flag {
-  /* display: flex;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  position: absolute; */
-  /* display: inline-block; */
-  background-image: url(/img/Прапор.svg) 0 0 100% no-repeat;
-  background-image: url(/img/Group\ 1022.svg);
-  background-image: url(/img/Вітання.svg);
-  
-}
-
-.hello-logo {
-  display: flex;
-  position: absolute;
-  width: 981px;
-  height: 343px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  
-}
-.academy-logo {
-  position: absolute;
-}
 .icons {
   width: 100%;
   height: 100%;
@@ -143,32 +135,32 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
   padding: 0px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
 }
 
 .dropbtn {
   background-color: #6a8ea8;
   color: white;
-
+  padding-top: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+  
 }
 
-.dropdown {
-  display: flexbox;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin-top: 40%;
-}
 
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 275px;
+  min-width: 103px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
