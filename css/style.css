@@ -1,3 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #05003e;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: Futura PT;
+  src: url(../fonts/FuturaPT-Book.woff);
+  src: url(../fonts/FuturaPT-Book.woff2);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 body::-webkit-scrollbar {
   position: absolute;
   width: 6px;
@@ -10,42 +28,28 @@ body::-webkit-scrollbar-thumb {
   top: 290px;
   width: 6px;
   height: 108px;
-  background: url(/img/scrollbar/Inactive.png) no-repeat center;
+  background: url(../img/scrollbar/Inactive.png) no-repeat center;
   border-radius: 4px;
 }
 body::-webkit-scrollbar-thumb:hover {
   position: absolute;
   width: 6px;
   height: 108px;
-  background: url(/img/scrollbar/Hover.png) no-repeat center;
+  background: url(../img/scrollbar/Hover.png) no-repeat center;
   border-radius: 4px;
 }
 body::-webkit-scrollbar-thumb:active {
   width: 6px;
   height: 108px;
-  background: url(/img/scrollbar/Active.png) no-repeat center;
+  background: url(../img/scrollbar/Active.png) no-repeat center;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
   border-radius: 4px;
 }
+
 body {
   overflow: auto;
   -ms-overflow-style: none;
-}
-* {
-  margin: 0;
-  padding: 0;
-  color: #05003e;
-  text-decoration: none;
-}
-@font-face {
   font-family: Futura PT;
-  src: url(/fonts/FuturaPT-Book.woff);
-  src: url(/fonts/FuturaPT-Book.woff2);
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 31px;
-  letter-spacing: 0em;
-  text-align: left;
 }
 
 .header {
@@ -68,9 +72,6 @@ body {
 
 .links {
   grid-area: links;
-  font-family: "Futura PT";
-  font-style: normal;
-  font-weight: 400;
   font-size: 24px;
   color: #05003e;
 }
@@ -89,14 +90,14 @@ body {
 .flag {
   position: absolute;
   background: 
-   url("/img/Прапор.svg") 60% 60% / cover no-repeat;
+   url(../img/Прапор.svg) 60% 60% / cover no-repeat;
   width: 100%;
   height: 120%;
 }
 .hello {
   /* position: absolute; */
-  background: url("/img/Вітання.svg") center 20%/60% 43% no-repeat,
-    url("/img/Group\ 1022.svg") 98% 75%/45% 25% no-repeat;
+  background: url(../img/Вітання.svg) center 20%/60% 43% no-repeat,
+    url(../img/Group\ 1022.svg) 98% 75%/45% 25% no-repeat;
   width: 100%;
   height: 85%;
 }
@@ -137,7 +138,6 @@ body {
   padding: 0px;
 }
 .dropdown {
-
   position: relative;
   display: inline-block;
   justify-content: center;
@@ -182,3 +182,101 @@ body {
 .dropdown:hover .dropbtn {
   background-color: white;
 }
+
+.wrapper {
+min-height: 100%;
+overflow: hidden;
+display: flex;
+}
+
+.content {
+  max-width: 100%;
+margin: 0px auto;
+}
+.registration {
+  
+  margin: 0 0 90px 0;
+}
+.registration__body {
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+.registration__info{
+  max-width: 60%;
+  margin: 0 0 50px 0;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+  color: #05003E;
+}
+.registration__text {
+  font-size: 28px;
+  line-height: 36px;
+  color: #05003E;
+  margin: 0 0 23px 0;
+  text-align: center;
+}
+.registration__buttom {
+  display: block;
+padding: 12px 92px;
+text-align: center;
+line-height: 45px;
+background-color: #2162B4;
+border-radius: 2px;
+color: #ffffff;
+font-size: 35px;
+  cursor: pointer;
+}
+
+.information {
+  margin: 0 auto;
+  padding: 75px 0;
+  background: url(../img/02.png) 
+}
+
+.information__body {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;    
+}
+
+.information__text {
+  flex: 0 1 60%;
+  font-size: 28px;
+  line-height: 50px;
+  text-align: center;
+  color: #05003E; 
+}
+.information_image {   
+  flex: 0 1 585px; 
+  margin: 0 0 0 28px;
+}
+.video {
+  margin: 90px 0 0 0;   
+}
+.video__container{
+  width: 70%;
+  margin: 0 auto;
+}
+.video__body {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video__item{   
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;  
+}
+.video__item iframe{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
