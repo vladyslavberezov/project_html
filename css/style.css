@@ -67,6 +67,11 @@ body {
     "main-logo main-logo social";
   background-size: cover;
   background-image: url(../img/pexels-alexis-ricardo-alaurin-8057449.png);
+ 
+  src: url(../fonts/FuturaPT-Book.woff);
+  src: url(../fonts/FuturaPT-Book.woff2);
+  font-size: 24px;
+
   
 }
 
