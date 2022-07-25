@@ -81,6 +81,12 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+a {
+  text-decoration: none;
+  font-family: 'Futura PT';
+  font-style: normal;
+  color: #05003E;
+}
 
 .main-logo {
   grid-area: main-logo;
@@ -237,7 +243,7 @@ font-size: 35px;
 }
 
 .information__body {
-  max-width: 70%;
+  max-width: 80%;
   margin: 0 auto;
   display: flex;    
 }
@@ -257,7 +263,7 @@ font-size: 35px;
   margin: 90px 0 0 0;   
 }
 .video__container{
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 .video__body {  
@@ -311,9 +317,6 @@ font-size: 35px;
     color: #05003E;  
     margin: 0 auto;
 }
-input.form-control::-webkit-input-placeholder {
-    color: #05003E;
-}
 .label_parners {
     font-style: normal;
     font-weight: 400;
@@ -329,6 +332,9 @@ input.form-control::-webkit-input-placeholder {
     border-radius: 2px;
     margin: 0 auto;
 }  
+input.form-control::-webkit-input-placeholder {
+    color: #05003E;
+}
 #vectors11 {
     position: absolute;
     width: 106px;
