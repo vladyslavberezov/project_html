@@ -359,4 +359,76 @@ input.form-control::-webkit-input-placeholder {
     font-size: 35px;
     color: #FFFFFF;
 }
+.container-warning{
+  background-image: url('../img/Rectangle.svg'),url('../img/EmblemBackground.svg');
+  background-repeat: no-repeat,no-repeat;
+  background-size: contain, contain;
+  width: 100%;
+  height: 29vw;
+  display: grid;
+}
+.content-warning{
+  font-family: Futura PT;
+  color: #05003E;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding-left:  15%;
+  padding-right: 15%;
+  font-size: 1.5vmax;
+}
+.content-block-right{
+  margin: 0 0 0 0;
+}
+.content-block-left{
+  margin: 0 0 0 0;
+}
+.emblem{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 9%;
+  padding-bottom: 5%;
+}
+img.emblem{
+  height: 6vw;
+}
+.emblem p#warning{
+  font-size: 2.5vmax;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+  font-style: normal;
+}
+.content-block-right p{
+  justify-content: center;
+  align-items: flex-end;
+  line-height: 2.3vmax;
 
+}
+button.btn-1#register-members-1{
+  width: 23vmax;
+  height: 3.6vmax;
+  font-family: Futura PT;
+  font-size: 1.8vmax;
+  font-weight: 450;
+  color: #ffffff;
+  background-color: #2162b4;
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+button.btn-1#register-members-1:hover{
+  filter: drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.5));
+  border: none;
+}
+button.btn-1#register-members-1:active{
+  color: #2162b4;
+  background-color: #ffffff;
+  border: none;
+}
+button.btn-1#register-members-1:disabled{
+  color: #999999;
+  background-color: #e9e9e9;
+  border: none;
+}
