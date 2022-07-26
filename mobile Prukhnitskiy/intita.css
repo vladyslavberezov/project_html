@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Futura PT Book';
+    src: url('FuturaPT-Book.eot');
+    src: local('Futura PT Book'), local('FuturaPT-Book'),
+        url('./FuturaPT/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+        url('./FuturaPT/FuturaPT-Book.woff') format('woff'),
+        url('./FuturaPT/FuturaPT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Light.eot');
+    src: local('Futura PT Light'), local('FuturaPT-Light'),
+        url('./FuturaPT/FuturaPT-Light.eot?#iefix') format('embedded-opentype'),
+        url('./FuturaPT/FuturaPT-Light.woff') format('woff'),
+        url('./FuturaPT/FuturaPT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.type{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #05003E;
+}
+
+.main{
+	width: 320px;
+	height: 686px;
+	background-color: white;
+}
+
+.first{
+    width: 320px;
+	height: 222px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.second{
+	width: 320px;
+	height: 464px;
+	background-image: url(background.png);
+	background-size: 320px 464px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.text{
+    width: 240px;
+    height: 135px;
+    position: absolute;
+    z-index: 1;
+}
+
+.weight{
+	font-family: Futura PT Book;
+}
+
+.title{
+    font-family: Futura PT;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.zernyatko_img{
+	width: 184px;
+	height: 53px;
+	position: absolute;
+	z-index: 0;
+	left: 129px;
+	right: 7px;
+	top: 153px;
+}
+
+.descrip1{
+	width: 272px;
+	height: 62px;
+    padding-top: 24px;
+}
+
+.descrip2{
+	width: 272px;
+	height: 30px;
+    padding-top: 16px;
+}
+
+.descrip3{
+	width: 272px;
+	height: 45px;
+	padding-top: 16px;
+}
+
+.descrip4{
+	width: 240px;
+	height: 75px;
+	padding-top: 16px;
+}
+
+.title2{
+	font-family: Futura PT Book;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 44px;
+    padding-bottom: 8px;
+}
+
+.button{
+	text-decoration: none;
+	border-radius: 2px;
+	background-color: #2162B4;
+	color: white;
+	font-family: Futura PT Book;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    padding: 7px 77.5px 9px 76.5px;
+    margin-bottom: 24px;
+}
