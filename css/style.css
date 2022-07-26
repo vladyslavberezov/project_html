@@ -359,6 +359,140 @@ input.form-control::-webkit-input-placeholder {
     font-size: 35px;
     color: #FFFFFF;
 }
+
+
+.heroy {
+  padding-top: 93px;
+  font-family: 'FuturaPT-Book';
+}
+
+.container{
+  max-width: 80%;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.heroy-wrapper {
+  position: relative;
+  border-left: 3px solid #FDD817;
+  border-bottom: 3px solid #FDD817;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px 0 90px 45px;
+}
+
+.heroy-wrapper::before {
+  content: "";
+  width: 3px;
+  background: #FDD817;
+  height: 180px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.heroy-wrapper::after {
+  content: "";
+  width: 3px;
+  background: #FDD817;
+  height: 270px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.heroy-right {
+  /* width: 739px; */
+  width: 54%;
+}
+
+.heroy-left {
+  /* width: 563px; */
+  width: 41%;
+}
+
+.heroy-right img {
+  display: block;
+  max-width: 100%;
+  margin-left: 10px;
+}
+
+.heroy-title {
+  background: #FFF;
+  text-align: center;
+  font-size: 50px;
+  line-height: 1;
+  color: #05003E;
+  position: relative;
+  margin-bottom: -25px;
+}
+
+.heroy-title::before {
+  content: "";
+  width: 29%;
+  height: 3px;
+  background: #FDD817;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: block;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.heroy-title::after {
+  content: "";
+  width: 29%;
+  height: 3px;
+  background: #FDD817;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.heroy-list li {
+  font-size: 28px;
+  line-height: 50px;
+
+}
+
+.heroy-list li span {
+  font-family: 'FuturaPT-Medium';
+
+}
+
+.heroy-list li:not(:last-child) {
+  margin-bottom: 84px;
+}
+
+.scroll {
+  display: flex;
+  justify-content: center;
+  padding: 90px 0;
+  overflow-x: hidden;
+}
+
+.scroll-img {
+  max-width: 25.8%;
+}
+
+.scroll-img img {
+  display: block;
+  width: 100%;
+}
+
+
+
 .container-warning{
   background-image: url('../img/Rectangle.svg'),url('../img/EmblemBackground.svg');
   background-repeat: no-repeat,no-repeat;
