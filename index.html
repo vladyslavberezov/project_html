@@ -76,7 +76,7 @@
                      <div class="registration__body">
                     <div class="registration__info"><b>Програма підтримки українців</b>, які постраждали від наслідків війни росії проти України і українського народу.</div>
                     <div class="registration__text">Щоб прийняти участь в програмі:</div>
-                    <div class="registration__buttom">Зареєструватись</div>
+                    <button type="button" class="btn-btn-primary registration__buttom" data-bs-toggle="modal" data-bs-target="#exampleModal">Зареєструватись</button>
                 </div>
             </div>
         </div>
@@ -158,6 +158,82 @@
         </div>
     </div>
     <br>
+    <div class="modal Vereta" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal_v">
+        <form action="/action_page.php" class="needs-validation form_vereta" method="post">
+            <div class="modal-content modal_ve">
+                <div class="modal-header modal_ver"></div>
+                    <div class="modal-body modal_vere">
+                    <h2 class="modal-title title_vereta">Анкета <b>Учасника</b> програми</h2>
+
+                    <input type="text" class="form-control input_vereta" id="name" placeholder="Ім'я" required>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                    <input type="text" class="form-control input_vereta" id="surname" placeholder="Прізвище" required>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                    <input type="text" class="form-control input_vereta" id="email" placeholder="Email" required>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                    <input type="text" class="form-control input_vereta" id="phone" placeholder="Мобільний телефон" required>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                    <input type="text" class="form-control input_vereta" id="city" placeholder="Місто/село, країна теперішнього тимчасового проживання">
+                    <input type="text" class="form-control input_vereta" id="village" placeholder="Місто/село,в Україні куди плануєте повернутись">
+          
+                    <div class="info-form_vereta">
+                      <label class="information_vereta" for="info">Звідки отримали інформацію про нас?</label>
+                      <textarea class="form-contr_vereta" rows="5" id="info" name="text"></textarea><br>
+
+                      <h2 class="direction_vereta">Бажаний напрямок підготовки</h2>
+
+                      <ul class="flex-inner_vereta">
+                        <li>
+                          <input type="checkbox" class="check">
+                          <label class="text-check_vereta" for="first">Автоматизоване тестування</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" class="check">
+                          <label class="text-check_vereta" for="third">Проектний менеджмент (PM)</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" class="check">
+                          <label class="text-check_vereta" for="second">HR & TA (людські ресурси і залучення талантів)</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" class="check">
+                          <label class="text-check_vereta" for="four">Школа Хакерів для дітей 6-16 р</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" class="check">
+                          <label class="text-check_vereta" for="five">Англійська для ІТ</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" class="check">
+                          <label class="text-check_vereta" for="six">Системне адміністрування</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" class="check">
+                          <label class="text-check_vereta" for="seven">Ручне тестування</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" class="check">
+                          <label class="text-check_vereta" for="eight">Веб-дизайн (UI/UX)</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" class="check">
+                          <label class="text-check_vereta" for="nine">Програмування</label>
+                        </li>
+                      </ul>
+                      <div class="modal-zerno_vereta">
+                        <img class="zerno" src="img/Зернятка_1.svg">
+                      </div>               
+                    </div>
+                        
+                    <div class="modal-button modal_veret">
+                      <button type="submit" class="btn_vereta" id="button-btn" data-dismiss="modal">Зареєструватись</button>
+                    </div>
+                    </div>
+            </div>
+        </form>
+        </div>
+    </div>
     <br>
     <div class="Andriy">
      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ModalPartnersForm"> Приєднатись (А. Васатій)
