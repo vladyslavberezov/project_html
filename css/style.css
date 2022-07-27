@@ -759,7 +759,7 @@ button.btn-1#register-members-1:disabled{
 }
 
 #Rectangle {
-  max-width: 1920px;
+  width: 100%;
   height: auto;
   margin: 0;
   display: flex;
@@ -836,6 +836,7 @@ height: 100%;
 font-weight: 600;
 font-size: 1.2em;
 line-height: 1;
+white-space: nowrap;
 
 color: #05003E;
 }
@@ -853,6 +854,7 @@ font-weight: 450;
 font-size: 1em;
 line-height: 1.3;
 text-align: justify;
+white-space: nowrap;
 
 color: #FDD817;
 }
@@ -869,7 +871,7 @@ width: 40%;
 height: 33px;
 }
 
-/* Спеціалізації */
+/* Спеціалізаціi */
 #Special {
 width: 7%;
 height: 33px;
