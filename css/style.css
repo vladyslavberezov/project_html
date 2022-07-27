@@ -755,8 +755,8 @@ button.btn-1#register-members-1:disabled{
 
 
 .CentrBlock{
-    margin: 2.5% 0 25%;
-    height: 40vh;
+    margin: 2.5% 0 0% 0;
+    height: 140vh;
     width: 100%;
     color: #05003E;
     font-family: Futura PT;
@@ -869,3 +869,285 @@ p.abzac{
  p.welcome{
     margin-bottom: 3vh;
     }
+/*Simonenko*/
+.container-Dima{
+  font-family: Futura PT; 
+  color: #05003E;
+  background-color: none;
+  margin: 0; 
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 100%; 
+  height: 53vw;
+  box-sizing: border-box;
+}
+.special-Dima{
+  background-color: none;
+  margin: 0 ;
+  padding: 0;
+  width: 70%;
+  height: 49vw;
+  display: flex;
+  box-sizing: border-box;
+}
+.col1{
+  background-image: url('../img/Іконки.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 62.1% 81.2%;
+  margin: 0;
+  padding: 0;
+  width: 52.2%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #05003E;
+}
+.icon{
+  background-color: white;
+  width: 2.6%;
+  height: 5.2vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+#i1{
+  margin: 18.2% 0 0 33.5%;
+}
+#i2{
+  margin: 30.2% 0 0 33.5%;
+}
+#i3{
+  margin: 46.5% 10% 0 28.5%;
+  height: 2.6vw;
+  width: 5.2%;
+  display: flex;
+  justify-content: center;
+}
+#globe{
+  width: 100%;
+}
+#cloud{
+  width: 50%;
+} 
+.banner{
+  margin: 4.4% 3.4% 1.4% 0;
+  padding: 7% 0 0;
+  width: 96.6%;
+  border: 0.5vh solid #FDD817;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Futura PT;
+  font-style: normal;
+}
+.col2{
+  margin: 0;
+  padding: 0;
+  width: 3.6%;
+  box-sizing: border-box;
+}
+.col3{
+  width: 45.2%;
+  display: flex;
+  flex-direction: column;
+}
+.row1{
+  margin: 4% 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.row2{
+  margin: 2.3% 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.card{
+  background-color: white;
+  margin: 0;  
+  padding: 0;
+  width: 47.5%;
+  height: 23.2vw;
+  border: 0.1vw solid #6A8EA8;
+  border-radius: 0.15vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 101.5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#prog{
+  background-image: url('../img/Карточка.svg');
+  margin: 0%;
+  padding: 0%;
+
+}
+#test{
+  background-image: url('../img/Карточка2.svg'); 
+  margin: 0%;
+  padding: 0%;
+}
+#web{
+  background-image: url('../img/Карточка3.svg');
+  margin: 0%;
+  padding: 0%;
+}
+#manage{
+  background-image: url('../img/Карточка4.svg');
+  margin: 0%;
+  padding: 0%;
+}
+#text1{
+  background-color: white;
+  position: absolute;
+  width: 20%;
+  font-size: 2.5vw;
+}
+#text2{
+  margin: 0 0 0 1.5%;
+  position: absolute;
+  width: 20%;
+  font-size: 1.4vw;
+  
+}
+#text3{
+  margin: 7.5% 0 0 0;
+  position: absolute;
+  width: 25%;
+  font-size: 2.4vw;
+  line-height: 200%;
+}
+#text4{
+  margin: 34% 0 0 1.5%;
+  position: absolute;
+  width: 22.5%;
+  font-size: 1.4vw;
+  
+}
+.texting1{
+  margin: 1.5% 0 0 0;
+  position: absolute;
+  width: 70%;
+  font-size: 1vw;
+  font-family: Futura PT;
+  font-style: normal;
+  text-align: center;
+}
+.card:hover{
+  transform: scale(1.35);
+  z-index: 1;
+  top: 12.6%;
+  right: 3.3%;
+}
+#test:hover{
+  left: 3.3%;
+}
+#manage:hover{
+  top: 15%;
+  left: 3.3%;
+}
+#web:hover{
+  top: 15%;
+}
+.texting2{
+  margin: 73% 0 0 0;
+  position: absolute;
+  width: 70%;
+  font-size: 0.6vw;
+  font-family: Futura PT;
+  font-style: normal;
+  text-align: center;
+}
+.texting3{
+  margin: 117.5% 0 10% 0;
+  position: absolute;
+  width: 70%;
+  font-size: 0.6vw;
+  font-family: Futura PT;
+  font-style: normal;
+  text-align: center;
+}
+button.btn#register-members{ 
+  margin: 19.2vw 2vw 1vw;
+  width: 10.5vmax; 
+  height: 2vmax;
+  font-family: Futura PT; 
+  font-size: 1.1vmax;
+  color: #ffffff; 
+  background-color: #05003E;
+  border: none; 
+  box-shadow: none; 
+  border-radius: 0.2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+button.btn#register-members:hover{ 
+  filter: drop-shadow(0 1vw 1.2vw rgba(0, 0, 0, 0.25)); 
+  border: none; 
+} 
+button.btn#register-members:active{ 
+  color: #05003E; 
+  background-color: #ffffff; 
+  border: none; 
+} 
+button.btn#register-members:disabled{ 
+  color: #999999; 
+  background-color: #e9e9e9; 
+  border: none; 
+
+}
+.footer{
+  margin-top: 2%;
+  margin-bottom: 2.5%;
+  width: 31.5%;
+  height: 3.2vw;
+  display: flex;
+  justify-content: space-between;
+}
+.tx{
+  font-family: Futura PT;
+  font-size: 2.5vw;
+  width: 63.5%;
+  display: flex;
+  align-items: center;
+  height: 3.2vw;
+}
+.socnet{
+  width: 33.5%;
+  height: 3.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.btnsoc{ 
+  background-color: white;
+  width: 60%;
+  height: 2vw;
+  box-shadow: #05003E; 
+  box-sizing: border-box;
+  border: none;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+      #b1{ background-image: url('../img/Facebook.svg');}
+#b1:active{ background-image: url('../img/F2.svg');}
+      #b2{ background-image: url('../img/in.svg');}
+#b2:active{ background-image: url('../img/in2.svg');}
+      #b3{ background-image: url('../img/You tube.svg');}
+#b3:active{ background-image: url('../img/Y2.svg');}
+      #b4{ background-image: url('../img/Instagram.svg');}
+#b4:active{  background-image: url('../img/I2.svg');}
