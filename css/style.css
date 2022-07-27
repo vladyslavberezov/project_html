@@ -589,29 +589,27 @@ input.form-control::-webkit-input-placeholder {
 }
 
 .heroy-right {
-  /* width: 739px; */
   width: 54%;
 }
 
 .heroy-left {
-  /* width: 563px; */
   width: 41%;
 }
 
 .heroy-right img {
   display: block;
   max-width: 100%;
-  margin-left: 10px;
+  margin-left: 13px;
 }
 
 .heroy-title {
   background: #FFF;
   text-align: center;
   font-size: 50px;
-  line-height: 1;
+  line-height: 64px;
   color: #05003E;
   position: relative;
-  margin-bottom: -25px;
+  margin-bottom: -30px;
 }
 
 .heroy-title::before {
