@@ -16,7 +16,7 @@
         url('./FuturaPT/FuturaPT-Light.eot?#iefix') format('embedded-opentype'),
         url('./FuturaPT/FuturaPT-Light.woff') format('woff'),
         url('./FuturaPT/FuturaPT-Light.ttf') format('truetype');
-    font-weight: 300;
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -25,20 +25,18 @@
 	padding: 0;
 }
 
-.type{
-    font-family: 'Futura PT';
-    font-style: normal;
-    font-weight: 450;
-    font-size: 12px;
-    line-height: 15px;
-    text-align: center;
-    color: #05003E;
-}
-
 .main{
 	width: 320px;
 	height: 686px;
 	background-color: white;
+}
+
+.type{
+    font-family: 'Futura PT';
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #05003E;
 }
 
 .first{
@@ -66,11 +64,19 @@
     width: 240px;
     height: 135px;
     position: absolute;
-    z-index: 1;
 }
 
 .weight{
 	font-family: Futura PT Book;
+}
+
+.zern_img{
+    width: 184px;
+    height: 53px;
+    position: absolute;
+    left: 129px;
+    right: 7px;
+    top: 153px;
 }
 
 .title{
@@ -80,16 +86,6 @@
     letter-spacing: 0em;
     text-align: center;
     padding-top: 16px;
-}
-
-.zernyatko_img{
-	width: 184px;
-	height: 53px;
-	position: absolute;
-	z-index: 0;
-	left: 129px;
-	right: 7px;
-	top: 153px;
 }
 
 .descrip1{
@@ -132,7 +128,6 @@
 	background-color: #2162B4;
 	color: white;
 	font-family: Futura PT Book;
-    font-style: normal;
     font-size: 22px;
     line-height: 28px;
     text-align: center;
